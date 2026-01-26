@@ -3,7 +3,7 @@
 Project as described in the roadmap.sh projects list: [roadmap.sh link to project](https://roadmap.sh/projects/task-tracker)
 
 ## usage
-```json
+```
 Task Tracker CLI (Node.js)
 
     Usage:
