@@ -39,23 +39,23 @@ const helpers = {
     Task Tracker CLI (Node.js)
 
     Usage:
-    node index.js add "Task description"
-    node index.js update <id> "New description"
-    node index.js delete <id>
-    node index.js mark <id> <status>
-    node index.js list
-    node index.js list <status>
+    node tasks add "Task description"
+    node tasks update <id> "New description"
+    node tasks delete <id>
+    node tasks mark <id> <status>
+    node tasks list
+    node tasks list <status>
 
     Statuses:
     todo | in-progress | done
 
     Examples:
-    node index.js add "Buy groceries"
-    node index.js update 1 "Buy groceries and cook dinner"
-    node index.js mark 1 in-progress
-    node index.js mark 1 done
-    node index.js list
-    node index.js list done
+    node tasks add "Buy groceries"
+    node tasks update 1 "Buy groceries and cook dinner"
+    node tasks mark 1 in-progress
+    node tasks mark 1 done
+    node tasks list
+    node tasks list done
         `.trim());
     },
 }
